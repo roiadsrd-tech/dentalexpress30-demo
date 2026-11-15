@@ -195,40 +195,40 @@ const DATA = {
     }
   ],
   "brand": {
-    "aestheticName": "Clinical Cyan & Deep Navy",
+    "aestheticName": "Surgical Cyan & Digital Smile Monolith",
     "themeMode": "light",
-    "pairingId": "plus-jakarta-inter",
-    "fontDisplay": "Plus Jakarta Sans",
-    "fontSans": "Inter",
+    "pairingId": "space-grotesk-dm-sans",
+    "fontDisplay": "Space Grotesk",
+    "fontSans": "DM Sans",
     "fontMono": "JetBrains Mono",
-    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap",
     "heroArchetype": "technical-dossier-grid",
     "logoAnalysis": {
       "dominantBgHex": "#FFFFFF",
-      "primaryMarkHex": "#00B4D8",
-      "secondaryAccentHex": "#03045E",
+      "primaryMarkHex": "#0EA5E9",
+      "secondaryAccentHex": "#0F4C5C",
       "geometryStyle": "clinical-modern",
       "strokeWeight": "1.5px",
-      "cornerRadius": "4px",
-      "motifDescription": "Logotipo que combina un azul cian vibrante con un azul marino profundo, utilizando líneas geométricas limpias que sugieren precisión médica.",
-      "iconDesignRule": "Iconografía minimalista basada en formas dentales abstractas y cruces clínicas estilizadas."
+      "cornerRadius": "12px",
+      "motifDescription": "Emblema limpio y tecnológico con trazos curvos anatómicos en azul cian clínico y tipografía sans-serif de precisión sobre fondo blanco puro.",
+      "iconDesignRule": "Trazo lineal vectorial de 1.5px en tono cian radiante con esquinas suavizadas de 4px, combinando precisión técnica odontológica con estética quirúrgica minimalista."
     },
     "palette": {
       "themeMode": "light",
-      "bgPrimary": "#FFFFFF",
-      "bgSecondary": "#F8FAFC",
-      "bgContrast": "#023E8A",
-      "bgWarm": "#FFFFFF",
-      "bgDark": "#023E8A",
-      "textPrimary": "#03045E",
-      "textDark": "#03045E",
+      "bgPrimary": "#F8FAFC",
+      "bgSecondary": "#FFFFFF",
+      "bgContrast": "#0F4C5C",
+      "bgWarm": "#F8FAFC",
+      "bgDark": "#0F4C5C",
+      "textPrimary": "#0F172A",
+      "textDark": "#0F172A",
       "textMuted": "#64748B",
       "textLight": "#FFFFFF",
       "textOnContrast": "#FFFFFF",
-      "accent": "#00B4D8",
-      "accentHover": "#0077B6",
+      "accent": "#0EA5E9",
+      "accentHover": "#0284C7",
       "accentSoft": "#E0F2FE",
-      "goldAccent": "#00B4D8",
+      "goldAccent": "#38BDF8",
       "borderHairline": "rgba(20, 22, 25, 0.11)"
     },
     "customVisualConcept": {
@@ -327,7 +327,13 @@ export default function App() {
       <header className="site-navbar">
         <div className="container nav-inner">
           <a href="#" className="brand-mark" style={{ display: 'flex', alignItems: 'center', gap: '14px', flexDirection: 'row' }}>
-            
+            {/* Logo Monograma Clínico Dental Express */}
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0 }}>
+              <rect width="40" height="40" rx="10" fill="#0F4C5C" />
+              <path d="M12 11H20C25 11 28.5 14.5 28.5 20C28.5 25.5 25 29 20 29H12V11Z" stroke="#0EA5E9" strokeWidth="2.2" strokeLinejoin="round" />
+              <path d="M18 11V29" stroke="#38BDF8" strokeWidth="1.6" strokeLinecap="round" strokeDasharray="3 2" />
+              <circle cx="21" cy="20" r="2.5" fill="#38BDF8" />
+            </svg>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span className="brand-name">{DATA.businessName}</span>
               <span className="brand-sub">{DATA.tagline}</span>

@@ -5,26 +5,26 @@ const BRAND_CONFIG = {
   "initial": "D",
   "schematicType": "clinical-grid",
   "strokeWidth": 1.5,
-  "accentHex": "#00B4D8",
-  "goldHex": "#00B4D8",
-  "bgDarkHex": "#023E8A",
+  "accentHex": "#0EA5E9",
+  "goldHex": "#38BDF8",
+  "bgDarkHex": "#0F4C5C",
   "textLightHex": "#FFFFFF",
   "geometryStyle": "clinical-modern",
-  "cornerRadius": "4px",
-  "title": "Protocolo Dental Avanzado",
-  "subtitle": "Higiene, tecnología y estética en cada paso.",
+  "cornerRadius": "12px",
+  "title": "Protocolo Odontológico Integral",
+  "subtitle": "Salud bucal, precisión clínica y bienestar en cada procedimiento.",
   "annotations": [
-    "Esterilización Certificada",
-    "Escaneo Intraoral",
-    "Materiales Premium"
+    "Evaluación Clínica Integral",
+    "Protocolos de Bioseguridad",
+    "Materiales Dentales Calificados"
   ],
   "materials": [
-    "Resinas de alta estética",
-    "Sistemas de blanqueamiento profesional",
-    "Brackets cerámicos"
+    "Instrumental médico",
+    "Materiales dentales",
+    "Resinas de alta estética"
   ],
   "locations": [
-    "Santo Domingo"
+    "República Dominicana"
   ]
 };
 

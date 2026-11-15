@@ -1,20 +1,25 @@
 :root {
-  --bg-warm: #FFFFFF;
-  --bg-secondary: #F8FAFC;
-  --bg-dark: #023E8A;
-  --text-dark: #03045E;
+  --bg-warm: #F8FAFC;
+  --bg-secondary: #FFFFFF;
+  --bg-contrast: #0F4C5C;
+  --bg-dark: #0F4C5C;
+  --text-primary: #0F172A;
+  --text-dark: #0F172A;
   --text-muted: #64748B;
   --text-light: #FFFFFF;
-  --accent: #00B4D8;
-  --accent-hover: #0077B6;
+  --text-on-contrast: #FFFFFF;
+  --accent: #0EA5E9;
+  --accent-hover: #0284C7;
   --accent-soft: #E0F2FE;
-  --gold: #00B4D8;
-  --font-display: 'Plus Jakarta Sans', 'Outfit', serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-ui: 'Inter', 'Outfit', sans-serif;
-  --radius-editorial: 4px;
-  --radius-asym-a: 4px 48px 4px 48px;
-  --radius-asym-b: 48px 4px 48px 4px;
+  --gold: #38BDF8;
+  --border-hairline: rgba(20, 22, 25, 0.11);
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-ui: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --radius-editorial: 12px;
+  --radius-asym-a: 12px 36px 12px 36px;
+  --radius-asym-b: 36px 12px 36px 12px;
 }
 
 * {
