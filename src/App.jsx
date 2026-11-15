@@ -7,7 +7,7 @@ const DATA = {
   "handle": "dentalexpress30",
   "businessName": "Dental Express",
   "legalOrFullTitle": "Dental Express - Odontología Especializada",
-  "tagline": "Transformando sonrisas con precisión clínica",
+  "tagline": "Tecnología de vanguardia para tu salud bucal",
   "industry": "clinics-health",
   "followersEstimate": "1500",
   "hasWebsite": false,
@@ -51,9 +51,9 @@ const DATA = {
   "specialist": {
     "name": "Dental Express",
     "role": "Clínica Odontológica Integral",
-    "bioParagraph1": "En Dental Express, combinamos tecnología de vanguardia con un trato humano excepcional. Nos especializamos en devolver la funcionalidad y la estética a tu sonrisa mediante procedimientos mínimamente invasivos.",
-    "bioParagraph2": "Ubicados en el corazón de Santo Domingo, nuestro equipo clínico se dedica a la excelencia en cada diagnóstico, asegurando que cada paciente reciba un plan de tratamiento personalizado y de alta calidad.",
-    "quote": "Tu salud bucal es nuestra prioridad clínica.",
+    "bioParagraph1": "En Dental Express, transformamos la experiencia odontológica mediante la integración de tecnología digital y un enfoque humano. Nos especializamos en devolver la funcionalidad y la estética a tu sonrisa con precisión milimétrica.",
+    "bioParagraph2": "Ubicados en Santo Domingo, nuestro equipo clínico se dedica a la excelencia en cada diagnóstico, asegurando que cada paciente reciba un plan de tratamiento personalizado basado en los estándares internacionales de salud oral.",
+    "quote": "La precisión técnica es la base de una sonrisa saludable.",
     "credentials": [
       "Odontología Integral",
       "Estética Dental Avanzada",
@@ -93,7 +93,16 @@ const DATA = {
     "primaryCta": "Agendar cita",
     "secondaryCta": "Ver servicios",
     "locationStamp": "SANTO DOMINGO, R.D.",
-    "heroSlides": []
+    "heroSlides": [
+      {
+        "url": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=2070",
+        "alt": "Consultorio dental moderno con tecnología de punta en Dental Express"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=2070",
+        "alt": "Primer plano de instrumental odontológico esterilizado"
+      }
+    ]
   },
   "manifesto": {
     "kicker": "nuestra filosofía",
@@ -102,7 +111,7 @@ const DATA = {
     "body": "Creemos en la odontología preventiva y restauradora. Cada procedimiento es ejecutado bajo estrictos protocolos de bioseguridad y con materiales de última generación para garantizar resultados duraderos y naturales.",
     "ctaText": "Conocer más",
     "ctaServiceSlug": "servicios-odontologicos",
-    "photo": ""
+    "photo": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=2070"
   },
   "dataSheet": {
     "projectName": "Dental Express",
@@ -150,7 +159,10 @@ const DATA = {
       ],
       "deliverable": "Salud oral integral",
       "imageCategory": "servicios-odontologicos",
-      "photos": []
+      "photos": [
+        "https://images.unsplash.com/photo-1460676749104-b9d24ceba29b?auto=format&fit=crop&q=80&w=2070",
+        "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?auto=format&fit=crop&q=80&w=2070"
+      ]
     }
   ],
   "cases": [],
@@ -183,9 +195,9 @@ const DATA = {
     }
   ],
   "brand": {
-    "aestheticName": "Clinical Precision & Clean Aesthetic",
+    "aestheticName": "Clinical Cyan & Deep Navy",
     "themeMode": "light",
-    "pairingId": "inter-plus-jakarta",
+    "pairingId": "plus-jakarta-inter",
     "fontDisplay": "Plus Jakarta Sans",
     "fontSans": "Inter",
     "fontMono": "JetBrains Mono",
@@ -193,40 +205,40 @@ const DATA = {
     "heroArchetype": "technical-dossier-grid",
     "logoAnalysis": {
       "dominantBgHex": "#FFFFFF",
-      "primaryMarkHex": "#007BFF",
-      "secondaryAccentHex": "#0056b3",
-      "geometryStyle": "minimalist-clinical",
-      "strokeWeight": "2px",
-      "cornerRadius": "8px",
-      "motifDescription": "Logotipo minimalista con tipografía sans-serif moderna y un icono que representa la estructura dental con líneas limpias.",
-      "iconDesignRule": "Trazo vectorial limpio, enfocado en la legibilidad y la confianza clínica."
+      "primaryMarkHex": "#00B4D8",
+      "secondaryAccentHex": "#03045E",
+      "geometryStyle": "clinical-modern",
+      "strokeWeight": "1.5px",
+      "cornerRadius": "4px",
+      "motifDescription": "Logotipo que combina un azul cian vibrante con un azul marino profundo, utilizando líneas geométricas limpias que sugieren precisión médica.",
+      "iconDesignRule": "Iconografía minimalista basada en formas dentales abstractas y cruces clínicas estilizadas."
     },
     "palette": {
       "themeMode": "light",
       "bgPrimary": "#FFFFFF",
-      "bgSecondary": "#F1F5F9",
-      "bgContrast": "#003366",
+      "bgSecondary": "#F8FAFC",
+      "bgContrast": "#023E8A",
       "bgWarm": "#FFFFFF",
-      "bgDark": "#003366",
-      "textPrimary": "#1E293B",
-      "textDark": "#1E293B",
+      "bgDark": "#023E8A",
+      "textPrimary": "#03045E",
+      "textDark": "#03045E",
       "textMuted": "#64748B",
       "textLight": "#FFFFFF",
       "textOnContrast": "#FFFFFF",
-      "accent": "#007BFF",
-      "accentHover": "#0056B3",
+      "accent": "#00B4D8",
+      "accentHover": "#0077B6",
       "accentSoft": "#E0F2FE",
-      "goldAccent": "#007BFF",
+      "goldAccent": "#00B4D8",
       "borderHairline": "rgba(20, 22, 25, 0.11)"
     },
     "customVisualConcept": {
       "schematicType": "clinical-grid",
-      "title": "Protocolo de Atención Dental",
-      "subtitle": "Precisión, higiene y resultados estéticos garantizados.",
+      "title": "Protocolo Dental Avanzado",
+      "subtitle": "Higiene, tecnología y estética en cada paso.",
       "annotations": [
-        "Esterilización 100%",
-        "Tecnología Digital",
-        "Atención Personalizada"
+        "Esterilización Certificada",
+        "Escaneo Intraoral",
+        "Materiales Premium"
       ]
     },
     "sectionRhythm": [

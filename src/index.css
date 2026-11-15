@@ -1,18 +1,18 @@
 :root {
   --bg-warm: #FFFFFF;
-  --bg-secondary: #F1F5F9;
-  --bg-dark: #003366;
-  --text-dark: #1E293B;
+  --bg-secondary: #F8FAFC;
+  --bg-dark: #023E8A;
+  --text-dark: #03045E;
   --text-muted: #64748B;
   --text-light: #FFFFFF;
-  --accent: #007BFF;
-  --accent-hover: #0056B3;
+  --accent: #00B4D8;
+  --accent-hover: #0077B6;
   --accent-soft: #E0F2FE;
-  --gold: #007BFF;
+  --gold: #00B4D8;
   --font-display: 'Plus Jakarta Sans', 'Outfit', serif;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-ui: 'Inter', 'Outfit', sans-serif;
-  --radius-editorial: 8px;
+  --radius-editorial: 4px;
   --radius-asym-a: 4px 48px 4px 48px;
   --radius-asym-b: 48px 4px 48px 4px;
 }

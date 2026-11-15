@@ -7,9 +7,9 @@ Este proyecto fue generado por **AutoWeb** siguiendo estrictamente `DESIGN_RULES
 2. **Cada sección tiene un fondo y composición diferente:**
    - Hero: `#FFFFFF` (Split 55/45 asimétrico)
    - Respaldo/Seguros RD: `#FFFFFF` (Marquee continuo)
-   - Especialidades: `#003366` (Lista numerada + fotografía sticky)
-   - Transformación Antes/Después: `#F1F5F9` (Comparador interactivo + casos)
+   - Especialidades: `#023E8A` (Lista numerada + fotografía sticky)
+   - Transformación Antes/Después: `#F8FAFC` (Comparador interactivo + casos)
    - Especialista: `#FFFFFF` (Retrato editorial + credenciales)
    - Instalaciones y Proceso: `#FFFFFF` (Mosaico 3 fotos + línea de 4 etapas)
-   - Ubicación en Santo Domingo y FAQ: `#003366` (Mapa interactivo + acordeón)
+   - Ubicación en Santo Domingo y FAQ: `#023E8A` (Mapa interactivo + acordeón)
 3. **Contraste WCAG AA verificado matemáticamente.**

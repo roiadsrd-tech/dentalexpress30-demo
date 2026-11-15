@@ -1,12 +1,12 @@
 <svg width="1200" height="675" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="450" fill="#003366" />
-  <rect x="24" y="24" width="752" height="402" stroke="#007BFF" stroke-opacity="0.3" stroke-width="1" />
+  <rect width="800" height="450" fill="#023E8A" />
+  <rect x="24" y="24" width="752" height="402" stroke="#00B4D8" stroke-opacity="0.3" stroke-width="1" />
   <line x1="24" y1="80" x2="776" y2="80" stroke="#FFFFFF" stroke-opacity="0.12" />
   <line x1="24" y1="370" x2="776" y2="370" stroke="#FFFFFF" stroke-opacity="0.12" />
-  <line x1="400" y1="24" x2="400" y2="426" stroke="#007BFF" stroke-opacity="0.25" stroke-dasharray="4 4" />
-  <rect x="150" y="115" width="500" height="220" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.85" />
-  <rect x="260" y="150" width="280" height="150" stroke="#007BFF" stroke-width="2" />
-  <circle cx="400" cy="225" r="54" stroke="#007BFF" stroke-width="2" stroke-dasharray="3 3" />
-  <text x="48" y="58" fill="#007BFF" font-family="monospace" font-size="11" letter-spacing="3">DENTAL EXPRESS — CLINICAL-GRID</text>
-  <text x="48" y="404" fill="#FFFFFF" fill-opacity="0.75" font-family="monospace" font-size="10" letter-spacing="2">Esterilización 100%   ·   Tecnología Digital   ·   Atención Personalizada</text>
+  <line x1="400" y1="24" x2="400" y2="426" stroke="#00B4D8" stroke-opacity="0.25" stroke-dasharray="4 4" />
+  <rect x="150" y="115" width="500" height="220" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.85" />
+  <rect x="260" y="150" width="280" height="150" stroke="#00B4D8" stroke-width="1.5" />
+  <circle cx="400" cy="225" r="54" stroke="#00B4D8" stroke-width="1.5" stroke-dasharray="3 3" />
+  <text x="48" y="58" fill="#00B4D8" font-family="monospace" font-size="11" letter-spacing="3">DENTAL EXPRESS — CLINICAL-GRID</text>
+  <text x="48" y="404" fill="#FFFFFF" fill-opacity="0.75" font-family="monospace" font-size="10" letter-spacing="2">Esterilización Certificada   ·   Escaneo Intraoral   ·   Materiales Premium</text>
 </svg>
