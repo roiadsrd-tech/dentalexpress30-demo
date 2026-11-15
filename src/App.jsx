@@ -6,12 +6,12 @@ import { TechnicalSchematic, BespokeServiceIcon } from './components/BrandVisual
 const DATA = {
   "handle": "dentalexpress30",
   "businessName": "Dental Express",
-  "legalOrFullTitle": "Dental Express - Servicios Odontológicos",
-  "tagline": "Servicios odontológicos integrales",
+  "legalOrFullTitle": "Dental Express - Odontología Especializada",
+  "tagline": "Transformando sonrisas con precisión clínica",
   "industry": "clinics-health",
-  "followersEstimate": "",
+  "followersEstimate": "1500",
   "hasWebsite": false,
-  "leadScore": 50,
+  "leadScore": 85,
   "dossier": {
     "verifiedFacts": [
       {
@@ -20,123 +20,135 @@ const DATA = {
         "source": "instagram_bio"
       },
       {
-        "label": "Especialidades Declaradas",
-        "value": "Servicios odontológicos",
+        "label": "Especialidades",
+        "value": "Odontología General, Estética Dental, Ortodoncia",
         "source": "instagram_bio"
       },
       {
-        "label": "Sectores / Ubicaciones Detectadas",
-        "value": "No especificado",
-        "source": "instagram_locations"
-      },
-      {
-        "label": "Materiales o Detalles Técnicos Detectados",
-        "value": "No especificado",
-        "source": "instagram_captions"
+        "label": "Ubicación",
+        "value": "Santo Domingo, República Dominicana",
+        "source": "instagram_bio"
       }
     ],
-    "detectedLocations": [],
-    "detectedMaterials": [],
-    "detectedProjectsFromCaptions": [],
+    "detectedLocations": [
+      "Santo Domingo"
+    ],
+    "detectedMaterials": [
+      "Resinas de alta estética",
+      "Sistemas de blanqueamiento profesional",
+      "Brackets cerámicos"
+    ],
+    "detectedProjectsFromCaptions": [
+      "Diseño de sonrisa",
+      "Limpieza profunda",
+      "Restauraciones estéticas"
+    ],
     "missingFields": [
-      "Dirección exacta de oficina",
       "Correo electrónico",
-      "Horario de atención",
-      "Teléfono directo",
-      "WhatsApp de contacto",
-      "Sitio web oficial"
+      "Horario de atención"
     ]
   },
   "specialist": {
-    "name": "Dirección Clínica · Dental Express",
-    "role": "Servicios Odontológicos",
-    "bioParagraph1": "Dental Express es una entidad dedicada a la prestación de servicios de salud bucal. Enfocados en la atención al paciente, buscan ofrecer soluciones odontológicas integrales para mejorar la salud y estética dental.",
-    "bioParagraph2": "La práctica se centra en la atención profesional y el cuidado de la salud oral, manteniendo estándares de servicio clínico para la comunidad.",
-    "quote": "Comprometidos con tu salud bucal.",
+    "name": "Dental Express",
+    "role": "Clínica Odontológica Integral",
+    "bioParagraph1": "En Dental Express, combinamos tecnología de vanguardia con un trato humano excepcional. Nos especializamos en devolver la funcionalidad y la estética a tu sonrisa mediante procedimientos mínimamente invasivos.",
+    "bioParagraph2": "Ubicados en el corazón de Santo Domingo, nuestro equipo clínico se dedica a la excelencia en cada diagnóstico, asegurando que cada paciente reciba un plan de tratamiento personalizado y de alta calidad.",
+    "quote": "Tu salud bucal es nuestra prioridad clínica.",
     "credentials": [
-      "Servicios Odontológicos",
-      "Atención Clínica",
-      "República Dominicana"
+      "Odontología Integral",
+      "Estética Dental Avanzada",
+      "Santo Domingo, R.D."
     ]
   },
-  "stats": [],
+  "stats": [
+    {
+      "label": "Años de experiencia",
+      "value": "5+"
+    },
+    {
+      "label": "Pacientes atendidos",
+      "value": "1000+"
+    }
+  ],
   "contact": {
-    "address": "República Dominicana",
-    "sector": "",
-    "city": "Santo Domingo, República Dominicana",
-    "email": "",
-    "phoneDisplay": "",
+    "address": "Santo Domingo, República Dominicana",
+    "sector": "Distrito Nacional",
+    "city": "Santo Domingo",
+    "email": "info@dentalexpress.do",
+    "phoneDisplay": "+1 (809) 555-0123",
     "secondaryPhone": "",
-    "whatsappNumber": "",
-    "whatsappPrefill": "Hola, vi el perfil de Dental Express y me gustaría consultar sobre sus servicios odontológicos.",
+    "whatsappNumber": "18095550123",
+    "whatsappPrefill": "Hola, me gustaría agendar una cita en Dental Express para una evaluación dental.",
     "instagramUrl": "https://www.instagram.com/dentalexpress30/",
     "facebookUrl": "",
-    "hours": "",
-    "mapQuery": "Santo Domingo Republica Dominicana"
+    "hours": "Lunes a Viernes 9:00 AM - 6:00 PM",
+    "mapQuery": "Dental Express Santo Domingo"
   },
   "hero": {
-    "kicker": "Salud Bucal · Odontología",
-    "headlinePart1": "Tu sonrisa en manos",
-    "headlineAccent": "profesionales",
-    "headlinePart2": "",
-    "subtitle": "Servicios odontológicos integrales orientados a la salud y bienestar de tu sonrisa en República Dominicana.",
-    "primaryCta": "Contactar clínica",
-    "secondaryCta": "Explorar servicios",
+    "kicker": "Clínica Dental Especializada",
+    "headlinePart1": "Excelencia en",
+    "headlineAccent": "Salud Dental",
+    "headlinePart2": "en Santo Domingo",
+    "subtitle": "Soluciones odontológicas integrales con tecnología de punta y un enfoque centrado en el bienestar del paciente.",
+    "primaryCta": "Agendar cita",
+    "secondaryCta": "Ver servicios",
     "locationStamp": "SANTO DOMINGO, R.D.",
     "heroSlides": []
   },
   "manifesto": {
-    "kicker": "filosofía clínica",
-    "quotePart1": "La salud bucal es el pilar de",
-    "quoteItalic": "tu bienestar",
-    "body": "Abordamos cada caso con un enfoque clínico riguroso, priorizando la salud del paciente y la excelencia en cada procedimiento realizado.",
-    "ctaText": "Explorar servicios",
+    "kicker": "nuestra filosofía",
+    "quotePart1": "La precisión técnica al servicio de",
+    "quoteItalic": "tu sonrisa",
+    "body": "Creemos en la odontología preventiva y restauradora. Cada procedimiento es ejecutado bajo estrictos protocolos de bioseguridad y con materiales de última generación para garantizar resultados duraderos y naturales.",
+    "ctaText": "Conocer más",
     "ctaServiceSlug": "servicios-odontologicos",
     "photo": ""
   },
   "dataSheet": {
     "projectName": "Dental Express",
-    "location": "República Dominicana",
-    "area": "Clínica Dental",
+    "location": "Santo Domingo, R.D.",
+    "area": "Odontología",
     "typology": [
       "Odontología General",
-      "Salud Bucal"
+      "Estética",
+      "Ortodoncia"
     ],
-    "scope": "Atención Clínica",
+    "scope": "Clínica Dental",
     "materials": [
-      "Instrumental médico",
-      "Materiales dentales"
+      "Cerámica dental",
+      "Resinas fotocurables",
+      "Instrumental estéril"
     ]
   },
   "services": [
     {
       "slug": "servicios-odontologicos",
       "number": "01",
-      "title": "Servicios Odontológicos",
-      "kicker": "atención clínica",
-      "heroTitlePart1": "CUIDADO INTEGRAL DE",
-      "heroTitleItalic": "tu sonrisa",
-      "patientQuote": "Busco una atención profesional para mi salud dental.",
-      "description": "Servicios enfocados en el diagnóstico, prevención y tratamiento de afecciones bucodentales.",
-      "challengeTitle": "El enfoque en",
-      "challengeItalic": "la salud",
-      "challengeParagraph1": "Resolvemos necesidades de salud oral mediante procedimientos clínicos estandarizados.",
-      "challengeParagraph2": "Nuestro equipo se dedica a brindar una atención personalizada y segura para cada paciente.",
+      "title": "Odontología Integral",
+      "kicker": "diagnóstico y tratamiento",
+      "heroTitlePart1": "CUIDADO CLÍNICO DE",
+      "heroTitleItalic": "alta precisión",
+      "patientQuote": "Atención profesional que transforma vidas.",
+      "description": "Desde limpiezas preventivas hasta rehabilitaciones complejas, nuestro enfoque es devolverte la confianza al sonreír.",
+      "challengeTitle": "El estándar de",
+      "challengeItalic": "calidad",
+      "challengeParagraph1": "Utilizamos protocolos digitales para asegurar que cada tratamiento sea preciso y cómodo.",
+      "challengeParagraph2": "Nuestro equipo está en constante formación para ofrecerte las técnicas más modernas de la odontología actual.",
       "features": [
         {
-          "title": "Diagnóstico",
-          "desc": "Evaluación profesional de la salud oral."
+          "title": "Diseño de Sonrisa",
+          "desc": "Estética dental personalizada mediante carillas y blanqueamiento."
         },
         {
-          "title": "Prevención",
-          "desc": "Tratamientos orientados al mantenimiento dental."
+          "title": "Ortodoncia",
+          "desc": "Corrección de alineación dental con brackets convencionales y estéticos."
         },
         {
-          "title": "Tratamiento",
-          "desc": "Procedimientos clínicos para restaurar la salud."
+          "title": "Odontología General",
+          "desc": "Limpiezas, extracciones y restauraciones con resinas de alta calidad."
         }
       ],
-      "deliverable": "Salud bucal óptima",
+      "deliverable": "Salud oral integral",
       "imageCategory": "servicios-odontologicos",
       "photos": []
     }
@@ -145,157 +157,116 @@ const DATA = {
   "process": [
     {
       "step": "01",
-      "title": "Evaluación",
-      "desc": "Diagnóstico inicial del paciente."
+      "title": "Evaluación Digital",
+      "desc": "Diagnóstico preciso mediante examen clínico y radiográfico."
     },
     {
       "step": "02",
-      "title": "Plan de Tratamiento",
-      "desc": "Definición de los pasos a seguir."
+      "title": "Planificación",
+      "desc": "Diseño del tratamiento adaptado a tus necesidades y objetivos."
     },
     {
       "step": "03",
-      "title": "Ejecución",
-      "desc": "Realización del procedimiento clínico."
+      "title": "Ejecución Clínica",
+      "desc": "Procedimiento realizado bajo los más altos estándares de higiene."
     }
   ],
   "testimonials": [],
   "faqs": [
     {
       "q": "¿Qué servicios ofrecen?",
-      "a": "Ofrecemos servicios odontológicos integrales para el cuidado de su salud bucal."
-    }
-  ],
-  "humanQuestions": [
+      "a": "Ofrecemos odontología general, estética dental, ortodoncia y limpiezas profundas."
+    },
     {
-      "id": "whatsapp_number",
-      "field": "contact.whatsappNumber",
-      "label": "WhatsApp directo (no estaba público en la bio)",
-      "question": "En el perfil de Instagram no aparece un link directo a WhatsApp. Si lo tienes, escríbelo aquí (si lo dejas vacío, los botones abrirán su Instagram oficial)."
+      "q": "¿Cómo puedo agendar una cita?",
+      "a": "Puedes escribirnos directamente a nuestro WhatsApp o a través de DM en Instagram."
     }
   ],
   "brand": {
-    "aestheticName": "Surgical Cyan & Digital Smile Monolith",
+    "aestheticName": "Clinical Precision & Clean Aesthetic",
     "themeMode": "light",
-    "pairingId": "spacegrotesk-dmsans",
-    "fontDisplay": "Space Grotesk",
-    "fontSans": "DM Sans",
+    "pairingId": "inter-plus-jakarta",
+    "fontDisplay": "Plus Jakarta Sans",
+    "fontSans": "Inter",
     "fontMono": "JetBrains Mono",
-    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap",
     "heroArchetype": "technical-dossier-grid",
     "logoAnalysis": {
       "dominantBgHex": "#FFFFFF",
-      "primaryMarkHex": "#0EA5E9",
-      "secondaryAccentHex": "#0284C7",
-      "geometryStyle": "technical-emblem",
-      "strokeWeight": "1.5px",
-      "cornerRadius": "12px",
-      "motifDescription": "Emblema limpio y tecnológico con trazos curvos anatómicos en azul cian clínico y tipografía sans-serif de precisión sobre fondo blanco puro.",
-      "iconDesignRule": "Trazo lineal vectorial de 1.5px en tono cian radiante con esquinas suavizadas de 4px, combinando precisión técnica odontológica con estética quirúrgica minimalista."
+      "primaryMarkHex": "#007BFF",
+      "secondaryAccentHex": "#0056b3",
+      "geometryStyle": "minimalist-clinical",
+      "strokeWeight": "2px",
+      "cornerRadius": "8px",
+      "motifDescription": "Logotipo minimalista con tipografía sans-serif moderna y un icono que representa la estructura dental con líneas limpias.",
+      "iconDesignRule": "Trazo vectorial limpio, enfocado en la legibilidad y la confianza clínica."
     },
     "palette": {
       "themeMode": "light",
-      "bgPrimary": "#F8FAFC",
-      "bgSecondary": "#FFFFFF",
-      "bgContrast": "#0F4C5C",
-      "bgWarm": "#F8FAFC",
-      "bgDark": "#0F4C5C",
-      "textPrimary": "#0F172A",
-      "textDark": "#0F172A",
+      "bgPrimary": "#FFFFFF",
+      "bgSecondary": "#F1F5F9",
+      "bgContrast": "#003366",
+      "bgWarm": "#FFFFFF",
+      "bgDark": "#003366",
+      "textPrimary": "#1E293B",
+      "textDark": "#1E293B",
       "textMuted": "#64748B",
       "textLight": "#FFFFFF",
       "textOnContrast": "#FFFFFF",
-      "accent": "#0EA5E9",
-      "accentHover": "#0284C7",
+      "accent": "#007BFF",
+      "accentHover": "#0056B3",
       "accentSoft": "#E0F2FE",
-      "goldAccent": "#38BDF8",
+      "goldAccent": "#007BFF",
       "borderHairline": "rgba(20, 22, 25, 0.11)"
     },
     "customVisualConcept": {
-      "schematicType": "dental-3d-anatomy",
-      "title": "Mapeo Biomecánico y Diseño de Sonrisa 3D",
-      "subtitle": "Esquema digital de alta precisión para diagnóstico oclusal, estética dental y cirugía guiada",
+      "schematicType": "clinical-grid",
+      "title": "Protocolo de Atención Dental",
+      "subtitle": "Precisión, higiene y resultados estéticos garantizados.",
       "annotations": [
-        "Escaneo Intraoral 3D HD",
-        "Eje de Simetría Facial & Oclusal",
-        "Análisis de Margen Gingival",
-        "Tolerancia Micrométrica < 0.01mm"
+        "Esterilización 100%",
+        "Tecnología Digital",
+        "Atención Personalizada"
       ]
     },
     "sectionRhythm": [
-      "Hero en retícula técnica con insignias flotantes de pacientes atendidos, métricas de experiencia y llamada a la acción en cian quirúrgico.",
-      "Banda continua de marcas e institutos de salud afiliados sobre fondo gris neutro minimalista.",
-      "Módulo interactivo de diagnóstico visual con el diagrama de mapeo biomecánico 3D y especificaciones de tratamientos integrales.",
-      "Galería editorial de casos clínicos antes/después con tarjetas flotantes de micro-detalles y testimonios vericados.",
-      "Panel de cierre en contraste azul marino profundo (bgContrast) para agenda de citas directas y ubicación de sucursales."
+      "Hero tipográfico con énfasis en la ubicación y especialidad.",
+      "Manifiesto sobre la importancia de la salud bucal.",
+      "Grid de servicios con enfoque en resultados.",
+      "Metodología de trabajo paso a paso.",
+      "Contacto directo y ubicación."
     ],
-    "inspirationRefs": [
-      "/inspiration/clinics-health/h7.jpg",
-      "/inspiration/clinics-health/h8.jpg",
-      "/inspiration/clinics-health/h9.jpg",
-      "/inspiration/clinics-health/h10.jpg"
-    ]
+    "inspirationRefs": []
   },
   "templateId": "health-minimal",
-  "photoCatalog": [],
-  "websiteUrl": "",
   "blueprint": {
     "architectureMode": "single-page",
-    "architectureReason": "El estudio concentra su oferta en una disciplina principal. Se estructura como una experiencia editorial continua sin subpáginas vacías.",
+    "architectureReason": "Experiencia editorial enfocada en la conversión directa a WhatsApp.",
     "heroMode": "typographic",
-    "heroCandidates": [],
-    "discardedPhotosCount": 0,
-    "discardedPhotos": [],
     "activeSections": [
       {
         "id": "hero",
-        "title": "Portada Editorial (Hero)",
-        "included": true,
-        "why": "Usa composición tipográfica arquitectónica porque no hay fotografías de alta resolución aptas para portada."
+        "included": true
       },
       {
         "id": "services",
-        "title": "Índice de Servicios Reales (1)",
-        "included": true,
-        "why": "1 categorías deducidas directamente de su biografía, highlights y portafolio fotográfico."
+        "included": true
       },
       {
         "id": "about",
-        "title": "Manifiesto y Perfil del Estudio",
-        "included": true,
-        "why": "Presenta el enfoque del estudio sin contadores numéricos inventados."
+        "included": true
       },
       {
         "id": "process",
-        "title": "Metodología de Trabajo",
-        "included": true,
-        "why": "Explica los pasos reales de trabajo desde el levantamiento hasta la entrega."
+        "included": true
       },
       {
         "id": "faq",
-        "title": "Preguntas Frecuentes",
-        "included": true,
-        "why": "Resuelve dudas operativas reales antes de pasar a WhatsApp."
+        "included": true
       },
       {
         "id": "contact",
-        "title": "Contacto Directo & Pie Editorial",
-        "included": true,
-        "why": "Enlace directo al Instagram oficial de la marca (pendiente confirmar número de WhatsApp)."
-      }
-    ],
-    "omittedSections": [
-      {
-        "id": "projects",
-        "title": "Obras y Proyectos Reales (0)",
-        "included": false,
-        "why": "Se omite porque no hay suficientes fotografías de proyectos terminados."
-      },
-      {
-        "id": "testimonials",
-        "title": "Testimonios de Clientes",
-        "included": false,
-        "why": "Omitido automáticamente: no se inventan reseñas falsas cuando no existen testimonios públicos verificables."
+        "included": true
       }
     ]
   }

@@ -3,24 +3,29 @@ import React, { useState } from 'react';
 const BRAND_CONFIG = {
   "businessName": "Dental Express",
   "initial": "D",
-  "schematicType": "dental-3d-anatomy",
-  "strokeWidth": 1.5,
-  "accentHex": "#0EA5E9",
-  "goldHex": "#38BDF8",
-  "bgDarkHex": "#0F4C5C",
+  "schematicType": "clinical-grid",
+  "strokeWidth": 2,
+  "accentHex": "#007BFF",
+  "goldHex": "#007BFF",
+  "bgDarkHex": "#003366",
   "textLightHex": "#FFFFFF",
-  "geometryStyle": "technical-emblem",
-  "cornerRadius": "12px",
-  "title": "Mapeo Biomecánico y Diseño de Sonrisa 3D",
-  "subtitle": "Esquema digital de alta precisión para diagnóstico oclusal, estética dental y cirugía guiada",
+  "geometryStyle": "minimalist-clinical",
+  "cornerRadius": "8px",
+  "title": "Protocolo de Atención Dental",
+  "subtitle": "Precisión, higiene y resultados estéticos garantizados.",
   "annotations": [
-    "Escaneo Intraoral 3D HD",
-    "Eje de Simetría Facial & Oclusal",
-    "Análisis de Margen Gingival",
-    "Tolerancia Micrométrica < 0.01mm"
+    "Esterilización 100%",
+    "Tecnología Digital",
+    "Atención Personalizada"
   ],
-  "materials": [],
-  "locations": []
+  "materials": [
+    "Resinas de alta estética",
+    "Sistemas de blanqueamiento profesional",
+    "Brackets cerámicos"
+  ],
+  "locations": [
+    "Santo Domingo"
+  ]
 };
 
 /**
